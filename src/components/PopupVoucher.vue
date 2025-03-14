@@ -161,7 +161,7 @@ onMounted(() => {
   color: #fff;
   position: relative;
   width: 90%;
-  max-width: 450px;
+  max-width: 600px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
