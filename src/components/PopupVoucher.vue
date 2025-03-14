@@ -74,7 +74,7 @@ const sendSubscription = async () => {
   };
 
   try {
-    const response = await fetch('https://mailcook.customedge.co/api/subscribers/add', {
+    const response = await fetch('http://127.0.0.1:8000/api/subscribers/add', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
